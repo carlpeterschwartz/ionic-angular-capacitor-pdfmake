@@ -1,0 +1,7 @@
+{
+  "name": "ionic-angular-capacitor-pdfmake",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
