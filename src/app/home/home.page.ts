@@ -59,7 +59,7 @@ export class HomePage implements OnInit {
 
   createPdf() {
     const formvalue = this.myForm.value;
-    const image = this.photoPreview ? { image: this.photoPreview, width: 300, alignment: 'center' } : {};
+    const image = this.photoPreview ? { image: this.photoPreview, width: 300, alignment: 'left' } : {};
 
     let logo = {};
     if (formvalue.showLogo) {
